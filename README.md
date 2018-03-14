@@ -29,3 +29,5 @@ The for loop in the while loop is to check whether we keep or remove the element
 <p align="center"><img src="/image/6.JPG"></p>
 
 ## 4. Result
+After playing 1000 times, the average number of guessing is 13.33. <br />
+<p align="center"><img src="/image/6.JPG"></p>
