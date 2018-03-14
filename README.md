@@ -9,12 +9,18 @@ We have a code set containing 5040 combination of 4 digit number without duplica
 In the original code set, there is 0123, 0124, 0125, 0126....... and so on. If our first guess is 0521 and receive A=2, B=1. 0123 can be the answer because it will give us the same A and B value, so we keep it in the code set. However 0124 will not be the answer definitely because it will give us A=2, B=0. We will clean the code set based on this rule.<br />
 
 ## 3. The Code and the explanation<br />
-<p align="center"><img src="/image/1.JPG"></p>
 import library<br />
-<p align="center"><img src="/image/2.JPG"></p>
+<p align="center"><img src="/image/1.JPG"></p>
+
 This is a function which will randomly return a sequence of 4 digit number without duplicate.<br />
+<p align="center"><img src="/image/2.JPG"></p>
+
+This is a function which will return value of **A** and **B**. The outer for loop will loop through all the digit in the code value(unknown and need to be guessed). The inner loop will loop through all the digit in the guess value. If the digit have the same position and value, A will plus 1. If the digit only have the same value with incorrcect position, B will plus 1. <br />
 <p align="center"><img src="/image/3.JPG"></p>
-This is a function which will return value of **A** and **B**. The outer for loop will loop through all the digit in the code value(unknown and need to be guessed). The inner loop will loop through all the digit in the guess value. If the digit have the same position and value, A will plus 1. If the digit only have the same value with incorrcect position, B will plus 1. 
+
+This is a function which will generate all the combination of 4 digit number without duplicate number.<br />
 <p align="center"><img src="/image/4.JPG"></p>
+
+
 <p align="center"><img src="/image/5.JPG"></p>
 <p align="center"><img src="/image/6.JPG"></p>
