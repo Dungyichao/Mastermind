@@ -34,4 +34,6 @@ After playing 1000 times, the average number of guessing is 13.33. The code is a
 <p align="center"><img src="/image/7.JPG"></p>
 
 ## 5. Reference (in Chinese)
-http://www.cs.nccu.edu.tw/~chaolin/papers/science3203.pdf
+NCCU: http://www.cs.nccu.edu.tw/~chaolin/papers/science3203.pdf
+Genetic algorithms: https://www.sciencedirect.com/science/article/pii/S030505480800110X
+
