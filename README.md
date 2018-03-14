@@ -21,10 +21,10 @@ In the original code set, there is 0123, 0124, 0125, 0126....... and so on. If o
 4. This is a function which will generate all the combination of 4 digit number without duplicate number such as (1,2,3,4), (3,6,2,4), (5,8,9,1)....and so on.<br />
 <p align="center"><img src="/image/4.JPG"></p>
 
-5. Generate a sequence of code which need to be guessed by our program.<br />
+5. We use the function **```givenum```** to generate a sequence of code which need to be guessed by our program.<br />
 <p align="center"><img src="/image/5.JPG"></p>
 
-6. This is the main program. First, use the function **```ini_population```** to initialize the code set which store all the possible answer.<br />
+6. This is the main program. First, use the function **```ini_population```** to initialize the code set which store all the possible answer. Second, we randomly use a sequence of digit as our first guess <br />
 <p align="center"><img src="/image/6.JPG"></p>
 
 ## 4. Result
