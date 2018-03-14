@@ -6,7 +6,7 @@ Example: If the real answer is 5032 and our guess is 4023. A = 1 because "0" is 
 ## 2. How we design the program<br />
 We have a code set containing 5040 combination of 4 digit number without duplicate. We randomly give a sequence of number as the first guess and receive the response of A and B. Based on the value of A and B, we remove the element from the code set which is not going to be the correct answer. We then pick up an element from the code set for the next play and receive A and B value. We will keep guessing until we get A=4 and B=0 (it means we get 4 digit with correct position and value).<br />
 ### Which element need to be removed from the code set<br />
-In the original code set, there is 0123, 0124, 0125, 0126....... and so on. If our first guess is 0521 and receive A=2, B=1. 0123 can be the answer because it will give us the same A and B value, so we keep it in the code set. However 0124 will not be the answer definitely because it will give us A=2, B=0. We will clean the code set based on this rule.<br />
+In the original code set, there is 0123, 0124, 0125, 0126....... and so on. If our first guess is 0521 and receive A=2, B=1. 0123 can be the answer because it will give us the same A and B value, so we keep it in the code set. However 0124 will not be the answer definitely because it will give us A=2, B=0 based on our guess 0521. We will clean the code set based on this rule.<br />
 
 ## 3. The Code and the explanation<br />
 1. import library<br />
@@ -24,7 +24,7 @@ In the original code set, there is 0123, 0124, 0125, 0126....... and so on. If o
 5. We use the function **```givenum```** to generate a sequence of code which need to be guessed by our program.<br />
 <p align="center"><img src="/image/5.JPG"></p>
 
-6. This is the main program. First, use the function **```ini_population```** to initialize the code set which store all the possible answer. Second, we randomly use a sequence of digit as our first guess <br />
+6. This is the main program. First, use the function **```ini_population```** to initialize the code set which store all the possible answer. Second, we randomly use a sequence of digit as our first guess. We then receive the A and B value when we use the first guess to play against the real answer. This play will be counted in the number of play. We store the number of play in the variable "play_count". We will add up the "play_count" by one whenever we guess a value and play against the real answer. <br />
 <p align="center"><img src="/image/6.JPG"></p>
 
 ## 4. Result
