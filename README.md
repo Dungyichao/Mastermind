@@ -10,8 +10,11 @@ In the original code set, there is 0123, 0124, 0125, 0126....... and so on. If o
 
 ## 3. The Code and the explanation<br />
 <p align="center"><img src="/image/1.JPG"></p>
+import library<br />
 <p align="center"><img src="/image/2.JPG"></p>
+This is a function which will randomly return a sequence of 4 digit number without duplicate.<br />
 <p align="center"><img src="/image/3.JPG"></p>
+This is a function which will return value of **A** and **B**. The outer for loop will loop through all the digit in the code value(unknown and need to be guessed). The inner loop will loop through all the digit in the guess value. If the digit have the same position and value, A will plus 1. If the digit only have the same value with incorrcect position, B will plus 1. 
 <p align="center"><img src="/image/4.JPG"></p>
 <p align="center"><img src="/image/5.JPG"></p>
 <p align="center"><img src="/image/6.JPG"></p>
