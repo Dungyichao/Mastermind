@@ -1,4 +1,5 @@
 # Mastermind
+This is a program to guess the code. The algorithm implemented in this file can reach about 13.33 times of guessing in average.
 ## 1. About the game<br />
 This game involves two persons(ex. Tom, Jack). Each of the player will think of a sequence of 4 digit number without duplicate such as 1234 or 4705. One of the player need to guess another player's answer. During the guessing process, Tom will guess a sequence of number and Jack will response the guessing with two number **A** and **B**.  A represents the number of digit with correct value as well as the correct position. B represents the number of digit with correct value but wrong position. Tom will give another guess based on the information of A and B and then Jack will give another A, B value as response. The guessing process will terminate untill Tom come up with the right answer of Jack.<br />
 
@@ -9,7 +10,7 @@ We have a code set containing 5040 combination of 4 digit number without duplica
 In the original code set, there is 0123, 0124, 0125, 0126....... and so on. If our first guess is 0521 and receive A=2, B=1. 0123 can be the answer because it will give us the same A and B value, so we keep it in the code set. However 0124 will not be the answer definitely because it will give us A=2, B=0 based on our guess 0521. We will clean the code set based on this rule.<br />
 
 ## 3. The Code and the explanation<br />
-1. import library<br />
+1. import library. "random" can generate random number. "itertools" can help us to loop through all the element in a list.<br />
 <p align="center"><img src="/image/1.JPG"></p>
 
 2. This is a function which will randomly return a sequence of 4 digit number without duplicate.<br />
@@ -29,5 +30,5 @@ The for loop in the while loop is to check whether we keep or remove the element
 <p align="center"><img src="/image/6.JPG"></p>
 
 ## 4. Result
-After playing 1000 times, the average number of guessing is 13.33. <br />
-<p align="center"><img src="/image/6.JPG"></p>
+After playing 1000 times, the average number of guessing is 13.33. The code is as the following.<br />
+<p align="center"><img src="/image/7.JPG"></p>
