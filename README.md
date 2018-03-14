@@ -24,5 +24,7 @@ In the original code set, there is 0123, 0124, 0125, 0126....... and so on. If o
 5. Generate a sequence of code which need to be guessed by our program.<br />
 <p align="center"><img src="/image/5.JPG"></p>
 
-6. This is the main program.<br />
+6. This is the main program. First, use the function <br />
 <p align="center"><img src="/image/6.JPG"></p>
+
+## 4. Result
