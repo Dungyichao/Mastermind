@@ -13,7 +13,7 @@ We have a code set containing 5040 combination of 4 digit number without duplica
 In the original code set, there is 0123, 0124, 0125, 0126....... and so on. If our first guess is 0521 and receive A=2, B=1. 0123 can be the answer because it will give us the same A and B value, so we keep it in the code set. However 0124 will not be the answer definitely because it will give us A=2, B=0 based on our guess 0521. We will clean the code set based on this rule.<br />
 ### Which element need to be picked from the code set for the next play<br />
 We give a graph explanation below. Please also refer to the paper ```Eﬃcient solutions for Mastermind using genetic algorithms``` page 8.<br />
-<p align="center"><img src="/image/chooseone_function.JPG"></p>
+<p align="center"><img src="/image/chooseone_function.jpg"></p>
 
 ### The algorithm and the program structure<br />
 <p align="center"><img src="/image/structure.JPG"></p>
