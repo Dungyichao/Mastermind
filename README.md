@@ -32,7 +32,7 @@ We give a graph explanation below. Please also refer to the paper ```Eﬃcient s
 <p align="center"><img src="/image/4.JPG"></p>
 
 5. This function helps us to choose the element in the code set to play in the next run. This sepecific element we choose should clean more elements in the code set. Please refer to the paper ```Eﬃcient solutions for Mastermind using genetic algorithms``` page 8. 
-<p align="center"><img src="/image/8.JPG"></p>
+<p align="center"><img src="/image/chooseone_code.JPG"></p>
 
 6. We use the function **```givenum```** to generate a sequence of code which need to be guessed by our program.<br />
 <p align="center"><img src="/image/5.JPG"></p>
