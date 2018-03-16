@@ -47,6 +47,6 @@ After playing 1000 times, the average number of guessing is 13.33. The code is a
 
 ## 5. Reference 
 NCCU(in Chinese): http://www.cs.nccu.edu.tw/~chaolin/papers/science3203.pdf  <br />
-Genetic algorithms: https://www.sciencedirect.com/science/article/pii/S030505480800110X
-Optimal algorithms for mastermind and bulls-cows games: http://slovesnov.users.sourceforge.net/index.php?bullscows_tree,english,crushBullsCows
+Genetic algorithms: https://www.sciencedirect.com/science/article/pii/S030505480800110X <br />
+Optimal algorithms for mastermind and bulls-cows games: http://slovesnov.users.sourceforge.net/index.php?bullscows_tree,english,crushBullsCows <br />
 
