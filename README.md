@@ -1,5 +1,5 @@
 # Mastermind
-This is a program to guess the code. The algorithm implemented in this file can reach about 10.85 times of guessing in average. You can find two python file. The ```mastermind_final.ipynb``` file is a breakdown explanation on playing one time game. The ```mastermind_final.py``` file is to obtain the average number of guessing times after playing 10000 times. Recently, our algorithm is able to obtain average guessing time 5.15 for 30 times of play. You can find the result from the .csv file  ```mastermind_final.csv```. The result still need to be improved. 
+This is a program to guess the code. The algorithm implemented in this file can reach about 10.85 times of guessing in average. You can find two python file. The ```mastermind_final.ipynb``` file is a breakdown explanation on playing one time game. The ```mastermind_final.py``` file is to obtain the average number of guessing times after playing 10000 times. Recently, our algorithm is able to obtain average guessing time 5.14 for 41 times of play. You can find the result from the .csv file  ```mastermind_final.csv```. The result still need to be improved. 
 ## 1. About the game<br />
 This game also names Bulls and Cows and it involves two persons(ex. Tom, Jack). Each of the player will think of a sequence of 4 digit number without duplicate such as 1234 or 4705. One of the player need to guess another player's answer. During the guessing process, Tom will guess a sequence of number and Jack will response the guessing with two number **A** and **B**.  A represents the number of digit with correct value as well as the correct position. B represents the number of digit with correct value but wrong position. Tom will give another guess based on the information of A and B and then Jack will give another A, B value as response. The guessing process will terminate untill Tom come up with the right answer of Jack.<br />
 
@@ -39,11 +39,10 @@ We give a graph explanation below. Please also refer to the paper ```Eﬃcient s
 
 7. This is the main program. First, use the function **```ini_population```** to initialize the code set which store all the possible answer. Second, we use randomly guess. We then receive the A and B value when we use the guess to play against the real answer. This play will be counted in the number of play. We store the number of play in the variable "play_count". We will add up the "play_count" by one whenever we guess a value and play against the real answer (which also occurs in the while loop). The while loop will terminate until we obtain the correct answer where A=4 and B=0. <br />
 The for loop in the while loop is to check whether we keep or remove the element from the code set. The element to be removed is the one which can not give us the same value of A and B based on our guess. After cleaning the code set, we pick up one element from the code set to act as the next guess. The picking method has already elaborated in the previous section. This guess will play against the true answer and receive A and B value. The while loop will end when we get the guess with A=4. Lastly, the program output the number of time we play to get the true answer.
-<p align="center"><img src="/image/6.JPG"></p>
+<p align="center"><img src="/image/main_final.JPG"></p>
 
 ## 4. Result
-After playing 30 times, the average number of guessing is 5.15. The code is as the following.<br />
-<p align="center"><img src="/image/mastermind.jpg"></p>
+After playing 41 times, the average number of guessing is 5.14. The code is as the following.<br />
 
 ## 5. Reference 
 NCCU(in Chinese): http://www.cs.nccu.edu.tw/~chaolin/papers/science3203.pdf  <br />
