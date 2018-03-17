@@ -16,7 +16,7 @@ We give a graph explanation below. Please also refer to the paper ```Eﬃcient s
 <p align="center"><img src="/image/chooseone_function.jpg"></p>
 
 ### The algorithm and the program structure<br />
-<p align="center"><img src="/image/structure1.JPG"></p>
+<p align="center"><img src="/image/structure_final.JPG"></p>
 
 ## 3. The Code and the explanation<br />
 1. import library. "random" can generate random number. "itertools" can help us to loop through all the element in a list.<br />
