@@ -1,5 +1,5 @@
 # Mastermind
-This is a program to guess the code. The algorithm implemented in this file can reach about 5.14 times of guessing in average. You can find two python file. The ```mastermind_final.ipynb``` file is a breakdown explanation on playing one time game. The ```mastermind_final.py``` file is to obtain the average number of guessing times after playing 41 times. Recently, our algorithm is able to obtain average guessing time 5.14 for 41 times of play. The maximum guessing time is 7. You can find the result from the .csv file ```mastermind_final.csv```. The result still need to be improved. 
+This is a program to guess the code. The algorithm implemented in this file can reach about 5.15 times of guessing in average. You can find two python file. The ```mastermind_final.ipynb``` file is a breakdown explanation on playing one time game. The ```mastermind_final.py``` file is to obtain the average number of guessing times after playing 41 times. Recently, our algorithm is able to obtain average guessing time 5.15 for 500 times of play. The maximum guessing time is 7. You can find the result from the .csv file ```mastermind_final.csv```. The result still need to be improved. 
 ## 1. About the game<br />
 This game also names Bulls and Cows and it involves two persons(ex. Tom, Jack). Each of the player will think of a sequence of 4 digit number without duplicate such as 1234 or 4705. One of the player need to guess another player's answer. During the guessing process, Tom will guess a sequence of number and Jack will response the guessing with two number **A** and **B**.  A represents the number of digit with correct value as well as the correct position. B represents the number of digit with correct value but wrong position. Tom will give another guess based on the information of A and B and then Jack will give another A, B value as response. The guessing process will terminate untill Tom come up with the right answer of Jack.<br />
 
@@ -42,7 +42,7 @@ The for loop in the while loop is to check whether we keep or remove the element
 <p align="center"><img src="/image/main_final.JPG"></p>
 
 ## 4. Result
-After playing 41 times, the average number of guessing is 5.14. The code is as the following.<br />
+After playing 500 times, the average number of guessing is 5.15. The code is as the following.<br />
 
 ## 5. Reference 
 NCCU(in Chinese): http://www.cs.nccu.edu.tw/~chaolin/papers/science3203.pdf  <br />
