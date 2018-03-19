@@ -12,7 +12,7 @@ We have a code set containing 5040 combination of 4 digit number without duplica
 ### Which element need to be removed from the code set<br />
 In the original code set, there is 0123, 0124, 0125, 0126....... and so on. If our first guess is 0521 and receive A=2, B=1. 0123 can be the answer because it will give us the same A and B value, so we keep it in the code set. However 0124 will not be the answer definitely because it will give us A=2, B=0 based on our guess 0521. We will clean the code set based on this rule.<br />
 ### Which element need to be picked from the code set for the next play<br />
-We give a graph explanation below. Please also refer to the paper ```Eﬃcient solutions for Mastermind using genetic algorithms``` page 8.<br />
+We give a graph explanation below. Please also refer to the paper ```Eﬃcient solutions for Mastermind using genetic algorithms``` page 8. The main idea is to minimize the code set after we pick an element from the code set. To reduce the checking time for the entire code set, we therefore randomly choose some elements (We implemented 100 as the max number of elements) as S to represent for the entire code set.<br />
 <p align="center"><img src="/image/chooseone_function.jpg"></p>
 
 ### The algorithm and the program structure<br />
