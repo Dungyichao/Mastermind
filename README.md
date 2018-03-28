@@ -47,7 +47,7 @@ The for loop in the while loop is to check whether we keep or remove the element
 <p align="center"><img src="/image/main_final.JPG"></p>
 
 ## 4. Result
-After playing 1256 times, the average number of guessing is 5.14. The code is as the following.<br />
+After playing 10000 times, the average number of guessing is 5.18. The code is as the following.<br />
 
 ## 5. Reference 
 NCCU(in Chinese): http://www.cs.nccu.edu.tw/~chaolin/papers/science3203.pdf  <br />
