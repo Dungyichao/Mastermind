@@ -46,7 +46,7 @@ We don't expect the chosen one for the next play to be the true answer, our goal
 <p align="center"><img src="/image/main_final.JPG"></p>
 
 ## 4. Result
-After playing 10000 times, the average number of guessing is 5.18. The code is as the following.<br />
+After playing 10000 times, the average number of guessing is 5.18.<br />
 
 ## 5. Reference 
 NCCU(in Chinese): http://www.cs.nccu.edu.tw/~chaolin/papers/science3203.pdf  <br />
