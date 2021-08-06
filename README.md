@@ -10,7 +10,7 @@ It is proven that any number could be solved within seven turns. <br />
 ## 2. How we design the program<br />
 We have a code set containing 5040 combination of 4 digit number without duplicate. We first randomly use a guess and receive the response of A and B. Based on the value of A and B, we remove the element from the code set which is not going to be the correct answer. We then pick up an element from the code set for the next play and receive A and B value. The method of how we pick up the element for the next play will be elaborate more later. We will keep guessing until we get A=4 and B=0 (it means we get 4 digit with correct position and value).<br />
 ### Which element need to be removed from the code set<br />
-In the original code set, there is 0123, 0124, 0125, 0126....... and so on(totally 5040 elements in the beginning). If our first guess is 0521 and receive A=2, B=1. 0123 might be the answer because it will give us the same A and B value, so we keep it in the code set. However 0124 will not be the answer definitely because it will give us A=2, B=0 based on our guess 0521. We will clean the code set based on this rule.<br />
+In the original code set, there is 0123, 0124, 0125, 0126....... and so on(totally 5040 elements in the beginning). If our first guess is 0521 and receive A=2, B=1. 0123 might be the answer because it will give us the same A and B value, so we keep it in the code set. However 0327 will not be the answer definitely because it will give us A=2, B=0 based on our guess 0521. We will clean the code set based on this rule.<br />
 <p align="center"><img src="/image/remove2.jpg"></p>
 
 ### Which element need to be picked from the code set for the next play<br />
